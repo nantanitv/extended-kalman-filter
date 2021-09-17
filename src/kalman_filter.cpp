@@ -1,4 +1,6 @@
 #include "kalman_filter.h"
+#include <iostream>
+#define PI 3.14159265359
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
@@ -58,12 +60,24 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
   
   float rho = sqrt(px*px + py*py);
   float phi = atan2(py, px);
+  // std::cout << "PHI: " << phi << std::endl;
   float rho_dot = (px*vx + py*vy) / rho;
   
   VectorXd z_pred = VectorXd(3);
   z_pred << rho, phi, rho_dot;
   
   VectorXd y = z - z_pred;
+  
+  // normalize angle in y(1) into the range (-PI, PI)
+  while (y(1) > PI) {
+    y(1) -= 2 * PI;
+  }
+  
+  while (y(1) < -PI) {
+    y(1) += 2 * PI;
+  }
+  
+  // std::cout << "y: " << y << std::endl;
   MatrixXd Ht = H_.transpose();
   MatrixXd S = (H_ * P_ * Ht) + R_;
   MatrixXd K = P_ * Ht * S.inverse();

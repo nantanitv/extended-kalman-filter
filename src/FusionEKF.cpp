@@ -48,13 +48,12 @@ FusionEKF::FusionEKF() {
   ekf_.P_ = MatrixXd(4, 4);
   ekf_.P_ << 1, 0, 0, 0,
              0, 1, 0, 0,
-             0, 0, 100, 0,
-             0, 0, 0, 100;
+             0, 0, 1000, 0,
+             0, 0, 0, 1000;
   
   // noise components
   noise_ax = 9.0;
   noise_ay = 9.0;
-
 }
 
 /**
@@ -83,9 +82,12 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
       //         and initialize state.
       float rho = measurement_pack.raw_measurements_[0];
       float phi = measurement_pack.raw_measurements_[1];
+      // float rho_dot = measurement_pack.raw_measurements_[2];
       
       ekf_.x_(0) = rho * cos(phi); // px
       ekf_.x_(1) = rho * sin(phi); // py
+      // ekf_.x_(2) = rho_dot * cos(phi); // vx
+      // ekf_.x_(3) = rho_dot * sin(phi); // vy
     }
     else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
       // TODO: Initialize state.
@@ -111,6 +113,7 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
    * Use noise_ax = 9 and noise_ay = 9 for your Q matrix.
    */
   
+  // set time interval and its powers
   float dt = (measurement_pack.timestamp_ - previous_timestamp_) / 1000000.0;
   previous_timestamp_ = measurement_pack.timestamp_;
   
@@ -121,11 +124,12 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
   ekf_.F_(0, 2) = dt;
   ekf_.F_(1, 3) = dt;
   
+  // process covariance matrix
   ekf_.Q_ = MatrixXd(4, 4);
-  ekf_.Q_ << dt_4 / 4*noise_ax, 0, dt_3 / 2*noise_ax, 0,
-             0, dt_4 / 4*noise_ay, 0, dt_3 / 2*noise_ay,
-             dt_3 / 2*noise_ax, 0, dt_2*noise_ax, 0,
-             0, dt_3 / 2*noise_ay, 0, dt_2*noise_ay;
+  ekf_.Q_ << (dt_4/4) * noise_ax, 0, (dt_3/2) * noise_ax, 0,
+             0, (dt_4/4) * noise_ay, 0, (dt_3/2) * noise_ay,
+             (dt_3/2) * noise_ax, 0, dt_2 * noise_ax, 0,
+             0, (dt_3/2) * noise_ay, 0, dt_2 * noise_ay;
 
   ekf_.Predict();
 
