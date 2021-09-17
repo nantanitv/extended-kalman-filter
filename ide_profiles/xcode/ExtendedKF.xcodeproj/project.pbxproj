@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		155C4E37293C49C1B3355632 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7CB3E19979D64174BBE49A1C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D31A010F89F3A29BBC244929 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				98495E9A04584DFAB7AEEFF0 /* PBXTargetDependency */,
+				450A1AB9F460415790A9886F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E84CE6394AE345B1A67A4B3A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CB2034A060D47DF892D24FC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				086B21CFD92C2DD42A626035 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4EFCBBD52DB941B192561B7E /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.h */ = {isa = PBXBuildFile; fileRef = DBF7DF1724C8485588658BBD /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.h */; };
+		7EAFF2F60318471C9CB14290 /* /Users/nantanitv/repos/extended-kalman-filter/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D0E40E7F96FA4BF792690462 /* /Users/nantanitv/repos/extended-kalman-filter/CMakeLists.txt */; };
+		8DF643CB3F864782BA1723E9 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.h */ = {isa = PBXBuildFile; fileRef = 825C3ED3131D415FBBF72345 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.h */; };
+		9439DFE4B700426FA561EF6F /* /Users/nantanitv/repos/extended-kalman-filter/src/main.cpp */ = {isa = PBXBuildFile; fileRef = F76E23CE186A4F3E9C26CC5C /* /Users/nantanitv/repos/extended-kalman-filter/src/main.cpp */; };
+		9AA2B77AA2E743D9918D2044 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = AAA55745467744ABA9EE8C40 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.cpp */; };
+		A4BD813619A54B23832ED596 /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.cpp */ = {isa = PBXBuildFile; fileRef = 43E1760C88DB466385CCCEDD /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.cpp */; };
+		B6333284B7534A5084BD5EFC /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.cpp */ = {isa = PBXBuildFile; fileRef = CDDDE9A4230A42E7957776F7 /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.cpp */; };
+		D5A2F88C4661407D9FD94A2E /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.h */ = {isa = PBXBuildFile; fileRef = 01ABF41ECC704590B3A9CCEB /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		42B3A767738747CEBE7B6102 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4CC591183A90423E827AA0DB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		53DA0AFDB59840519A63327E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6DC5BE4CECAE40CC898A97B3 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1B885D3755E449618BB1B9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652A9ADF75E44656851C7E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84CE6394AE345B1A67A4B3A;
+			remoteInfo = ZERO_CHECK;
+		};
+		AD4FFF9F7C4347E393652282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652A9ADF75E44656851C7E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94895233E3043AE91748E51;
+			remoteInfo = ExtendedKF;
+		};
+		E62545DB195D452FBF68F5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 652A9ADF75E44656851C7E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E84CE6394AE345B1A67A4B3A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ABF41ECC704590B3A9CCEB /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = kalman_filter.h; path = src/kalman_filter.h; sourceTree = SOURCE_ROOT; };
+		43E1760C88DB466385CCCEDD /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FusionEKF.cpp; path = src/FusionEKF.cpp; sourceTree = SOURCE_ROOT; };
+		5600FBAE42B248718BA0A10D /* /Users/nantanitv/repos/extended-kalman-filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		825C3ED3131D415FBBF72345 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tools.h; path = src/tools.h; sourceTree = SOURCE_ROOT; };
+		9FA94172E1984CC5907F30CB /* ExtendedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ExtendedKF; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA55745467744ABA9EE8C40 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		CDDDE9A4230A42E7957776F7 /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kalman_filter.cpp; path = src/kalman_filter.cpp; sourceTree = SOURCE_ROOT; };
+		D0E40E7F96FA4BF792690462 /* /Users/nantanitv/repos/extended-kalman-filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DBF7DF1724C8485588658BBD /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = FusionEKF.h; path = src/FusionEKF.h; sourceTree = SOURCE_ROOT; };
+		F76E23CE186A4F3E9C26CC5C /* /Users/nantanitv/repos/extended-kalman-filter/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8032AC9274964116A8AB1827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2514946BDA6B45E6913B48BB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E303C4B24C3149CA8DE72BDE /* CMake Rules */,
+				5600FBAE42B248718BA0A10D /* /Users/nantanitv/repos/extended-kalman-filter/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5725E9E149E142E5A6366E81 /* ExtendedKF */ = {
+			isa = PBXGroup;
+			children = (
+				72C0D38058F64CAEA4E6FAA1 /* Source Files */,
+				AD2A6E702D814C3FBDB9C34A /* Header Files */,
+				D0E40E7F96FA4BF792690462 /* /Users/nantanitv/repos/extended-kalman-filter/CMakeLists.txt */,
+			);
+			name = ExtendedKF;
+			sourceTree = "<group>";
+		};
+		6C9F59625A424C6496633B51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF54E034ABE4BDAB514A165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FA94172E1984CC5907F30CB /* ExtendedKF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72C0D38058F64CAEA4E6FAA1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				43E1760C88DB466385CCCEDD /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.cpp */,
+				CDDDE9A4230A42E7957776F7 /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.cpp */,
+				F76E23CE186A4F3E9C26CC5C /* /Users/nantanitv/repos/extended-kalman-filter/src/main.cpp */,
+				AAA55745467744ABA9EE8C40 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A63815C899D54BB6AA2D24AC = {
+			isa = PBXGroup;
+			children = (
+				5725E9E149E142E5A6366E81 /* ExtendedKF */,
+				2514946BDA6B45E6913B48BB /* ALL_BUILD */,
+				6FF54E034ABE4BDAB514A165 /* Products */,
+				6C9F59625A424C6496633B51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD2A6E702D814C3FBDB9C34A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF7DF1724C8485588658BBD /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.h */,
+				01ABF41ECC704590B3A9CCEB /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.h */,
+				825C3ED3131D415FBBF72345 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E303C4B24C3149CA8DE72BDE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D94895233E3043AE91748E51 /* ExtendedKF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6221D5042658489B9137B9CE /* Build configuration list for PBXNativeTarget "ExtendedKF" */;
+			buildPhases = (
+				25E58510AB094E28A015E98E /* Sources */,
+				8032AC9274964116A8AB1827 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B40AF4CB5744628AB9A93A /* PBXTargetDependency */,
+			);
+			name = ExtendedKF;
+			productName = ExtendedKF;
+			productReference = 9FA94172E1984CC5907F30CB /* ExtendedKF */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		652A9ADF75E44656851C7E28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 85DFCB1BF23D4F51945803CE /* Build configuration list for PBXProject "ExtendedKF" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				42B3A767738747CEBE7B6102 /* Debug */,
+				6DC5BE4CECAE40CC898A97B3 /* Release */,
+				53DA0AFDB59840519A63327E /* MinSizeRel */,
+				4CC591183A90423E827AA0DB /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A63815C899D54BB6AA2D24AC;
+			projectDirPath = ../../;
+			projectRoot = "";
+			targets = (
+				155C4E37293C49C1B3355632 /* ALL_BUILD */,
+				D94895233E3043AE91748E51 /* ExtendedKF */,
+				E84CE6394AE345B1A67A4B3A /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		086B21CFD92C2DD42A626035 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode
+  make -f /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode
+  make -f /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode
+  make -f /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode
+  make -f /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D31A010F89F3A29BBC244929 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E58510AB094E28A015E98E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4BD813619A54B23832ED596 /* /Users/nantanitv/repos/extended-kalman-filter/src/FusionEKF.cpp */,
+				B6333284B7534A5084BD5EFC /* /Users/nantanitv/repos/extended-kalman-filter/src/kalman_filter.cpp */,
+				9439DFE4B700426FA561EF6F /* /Users/nantanitv/repos/extended-kalman-filter/src/main.cpp */,
+				9AA2B77AA2E743D9918D2044 /* /Users/nantanitv/repos/extended-kalman-filter/src/tools.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10B40AF4CB5744628AB9A93A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84CE6394AE345B1A67A4B3A /* ZERO_CHECK */;
+			targetProxy = 1B885D3755E449618BB1B9FE /* PBXContainerItemProxy */;
+		};
+		450A1AB9F460415790A9886F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94895233E3043AE91748E51 /* ExtendedKF */;
+			targetProxy = AD4FFF9F7C4347E393652282 /* PBXContainerItemProxy */;
+		};
+		98495E9A04584DFAB7AEEFF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E84CE6394AE345B1A67A4B3A /* ZERO_CHECK */;
+			targetProxy = E62545DB195D452FBF68F5FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DE25685F00849A3A27C0752 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/lib,"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/opt/openssl/lib,"/usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/usr/local/Cellar/libuv/1*/lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-Wall     -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lz","-lssl","-luv","-luWS","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4E3715C183FA40209CD4E2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/build";
+			};
+			name = Debug;
+		};
+		7B37E596B32C47869837A6B3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		813ADD1989A8471B8941FB75 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8456FDAC60F24D329BBF1CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		896D1F0B13BB4D5A87062686 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		AD2B8CF4D7E5434D8B4A8828 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AF882A2D44BC45AC913B4C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/lib,"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/opt/openssl/lib,"/usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/usr/local/Cellar/libuv/1*/lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-Wall     -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lz","-lssl","-luv","-luWS","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B7CBA773BADD4BC1A14B399E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BCC56DE9985A404D918E03F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C89097AA36374B79AB2F1749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CC996473709D400182412B93 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		CE56A2184854471DA9D07D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/lib,"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/opt/openssl/lib,"/usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/usr/local/Cellar/libuv/1*/lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-Wall      -std=c++11";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lz","-lssl","-luv","-luWS","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D0FDA4A6760F46FA9C0F56C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DA8DBAA23A6C428DB91FEBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode/build";
+			};
+			name = Release;
+		};
+		EE42EDDF35864BF4A14A7716 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1*/lib","$(inherited)");
+				LIBRARY_SEARCH_PATHS = ("/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/lib,"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",/usr/local/opt/openssl/lib,"/usr/local/Cellar/libuv/1*/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)","/usr/local/Cellar/libuv/1*/lib","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "-Wall        -DNDEBUG   -std=c++11";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lz","-lssl","-luv","-luWS","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nantanitv/repos/extended-kalman-filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6221D5042658489B9137B9CE /* Build configuration list for PBXNativeTarget "ExtendedKF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE56A2184854471DA9D07D80 /* Debug */,
+				AF882A2D44BC45AC913B4C74 /* Release */,
+				4DE25685F00849A3A27C0752 /* MinSizeRel */,
+				EE42EDDF35864BF4A14A7716 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6CB2034A060D47DF892D24FC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8456FDAC60F24D329BBF1CFC /* Debug */,
+				B7CBA773BADD4BC1A14B399E /* Release */,
+				D0FDA4A6760F46FA9C0F56C0 /* MinSizeRel */,
+				AD2B8CF4D7E5434D8B4A8828 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CB3E19979D64174BBE49A1C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89097AA36374B79AB2F1749 /* Debug */,
+				BCC56DE9985A404D918E03F1 /* Release */,
+				7B37E596B32C47869837A6B3 /* MinSizeRel */,
+				813ADD1989A8471B8941FB75 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		85DFCB1BF23D4F51945803CE /* Build configuration list for PBXProject "ExtendedKF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3715C183FA40209CD4E2C3 /* Debug */,
+				DA8DBAA23A6C428DB91FEBCF /* Release */,
+				896D1F0B13BB4D5A87062686 /* MinSizeRel */,
+				CC996473709D400182412B93 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 652A9ADF75E44656851C7E28 /* Project object */;
+}
